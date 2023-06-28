@@ -1,6 +1,6 @@
 # docker_atelier1
 
-gitpod /workspace/docker_atelier1 (main) $ docker --version
+gitpod /workspace/docker_atelier1 (main) $ docker --version  
 Docker version 23.0.3, build 3e7cbfd
 gitpod /workspace/docker_atelier1 (main) $ docker ps
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
