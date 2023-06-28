@@ -3,20 +3,20 @@
 gitpod /workspace/docker_atelier1 (main) $ docker --version  
 Docker version 23.0.3, build 3e7cbfd
 gitpod /workspace/docker_atelier1 (main) $ docker ps  
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES  
+gitpod /workspace/docker_atelier1 (main) $ docker images    
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE  
+gitpod /workspace/docker_atelier1 (main) $ docker pull hello-world    
+Using default tag: latest  
+latest: Pulling from library/hello-world  
+719385e32844: Pull complete   
+Digest: sha256:a13ec89cdf897b3e551bd9f89d499db6ff3a7f44c5b9eb8bca40da20eb4ea1fa  
+Status: Downloaded newer image for hello-world:latest  
+docker.io/library/hello-world:latest  
 gitpod /workspace/docker_atelier1 (main) $ docker images  
-REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
-gitpod /workspace/docker_atelier1 (main) $ docker pull hello-world  
-Using default tag: latest
-latest: Pulling from library/hello-world
-719385e32844: Pull complete 
-Digest: sha256:a13ec89cdf897b3e551bd9f89d499db6ff3a7f44c5b9eb8bca40da20eb4ea1fa
-Status: Downloaded newer image for hello-world:latest
-docker.io/library/hello-world:latest
-gitpod /workspace/docker_atelier1 (main) $ docker images
-REPOSITORY    TAG       IMAGE ID       CREATED       SIZE
-hello-world   latest    9c7a54a9a43c   7 weeks ago   13.3kB
-gitpod /workspace/docker_atelier1 (main) $ docker run hello-world
+REPOSITORY    TAG       IMAGE ID       CREATED       SIZE  
+hello-world   latest    9c7a54a9a43c   7 weeks ago   13.3kB  
+gitpod /workspace/docker_atelier1 (main) $ docker run hello-world  
 
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
