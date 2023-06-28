@@ -2,11 +2,11 @@
 
 gitpod /workspace/docker_atelier1 (main) $ docker --version  
 Docker version 23.0.3, build 3e7cbfd
-gitpod /workspace/docker_atelier1 (main) $ docker ps
+gitpod /workspace/docker_atelier1 (main) $ docker ps  
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-gitpod /workspace/docker_atelier1 (main) $ docker images
+gitpod /workspace/docker_atelier1 (main) $ docker images  
 REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
-gitpod /workspace/docker_atelier1 (main) $ docker pull hello-world
+gitpod /workspace/docker_atelier1 (main) $ docker pull hello-world  
 Using default tag: latest
 latest: Pulling from library/hello-world
 719385e32844: Pull complete 
